@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="org.mybatis.jpetstore.mapper.SequenceMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/SequenceMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="217" x="274" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="org.mybatis.jpetstore.mapper.OrderMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/OrderMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="255" x="531" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="org.mybatis.jpetstore.mapper.ItemMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/ItemMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="297" x="826" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="org.mybatis.jpetstore.mapper.AccountMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/AccountMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="351" x="1163" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="org.mybatis.jpetstore.mapper.CategoryMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/CategoryMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="203" x="1554" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="org.mybatis.jpetstore.mapper.LineItemMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/LineItemMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="253" x="1797" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="org.mybatis.jpetstore.mapper.ProductMapper" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/mapper/ProductMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="283" x="2090" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

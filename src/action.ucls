@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.mybatis.jpetstore.web.actions.CartActionBean" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/web/actions/CartActionBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="353" width="209" x="259" y="151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.mybatis.jpetstore.web.actions.AccountActionBean" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/web/actions/AccountActionBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="605" width="198" x="508" y="151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.mybatis.jpetstore.web.actions.OrderActionBean" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/web/actions/OrderActionBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="569" width="258" x="746" y="151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.mybatis.jpetstore.web.actions.AbstractActionBean" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/web/actions/AbstractActionBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="191" width="220" x="640" y="-80"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.mybatis.jpetstore.web.actions.CatalogActionBean" project="jpetstore" 
+    file="/jpetstore/src/main/java/org/mybatis/jpetstore/web/actions/CatalogActionBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="857" width="225" x="1044" y="151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
